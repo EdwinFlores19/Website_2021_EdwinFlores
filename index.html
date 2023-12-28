@@ -1,83 +1,256 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="utf-8"   />
-    <title>Portafolio de Edwin Flores Sanchez</title>
-    <meta name="description" content="Este es mi portafolio, soy Edwin Junior Flores Sanchez" />
+    <meta charset="UTF-8"   />
+    <title> Edwin Junior Flores Sanchez</title>
+    <meta name="google-site-verification" content="51GdXfe5A_anHSvuv8llTXljgawu8VlOtvfUCiRCTLM" />
+    <meta name="description" content="Esta es una página sobre Edwin Junior Flores Sanchez" />
     <meta name= "autor" content="Edwin Junior Flores Sanchez " />
     <meta name= "keywords" content= "Edwin, Junior, Flores, Sanchez, Edwin Junior, Flores Sanchez, Junior Flores, Portafolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
 </head>
 <body>
-
-<div class="agrupar">
-    <header>
-        <h1>Edwin Flores Sanchez</h1>
+    <header>       
+        <h1>Edwin Junior Flores Sanchez</h1>
     </header>
-    
-    <nav>
-        <ul>
-            <li>Principal</li>
-            <li>Habilidades</li>
-            <li>Contacto</li>
+    <div class = "wrap">
+        <ul class = "tabs">
+            <li><a href ="#tab1"><spam>👨‍🎓</spam><span class="tab-text">Yo</span></a></li>
+            <li><a href ="#tab2"><spam>⭐</spam><span class="tab-text">Habilidades</span></a></li>
+            <li><a href ="#tab3"><spam>✨ </spam><span class="tab-text">Intereses</span></a></li>
+            <li><a href ="#tab4"><spam>👥</spam><span class="tab-text">Compañeros</span></a></li>
+            <li><a href ="#tab5"><spam>📱</spam><span class="tab-text">Redes Sociales</span></a></li>
         </ul>
-    </nav>
+        <div class="secciones">
+            <div>
+                <article id="tab1">
+                <h1>¿Quién soy?</h1 class="h11">
+                <p> Mi nombre completo es Edwin Junior Flores Sanchez, tengo 17 años.
+                    Nací en Huacho, donde vive la mayor parte de mi familia, sin embargo, actualmente resido en la capital, Lima-Perú.
+                    Desde pequeño siempre ame la ciencia y la tecnología, por esa
+                    razón estudio Information Systems en la Universidad San Ignacio de Loyola. 
+                    Soy un joven sediento de conocimiento, con miles de ideas dentro de mi cabeza, y pienso llevar a cabo cada una de ellas
+                    por medio de la computación.
+                </p>
+                <img src="edwin-flores.jpeg"/> 
 
-    <section>
-        <article>
-    <hgroup>
-    <h1>Titulo del primer articulo</h1>
-    <h2>Subtitulo del primer articulo</h2>
-    </hgroup>
-    <time Datetime="02-06-2021">Publicado en 2021</time>
-    <p>Parrafo largo del primer articulo articulando articuladamente articulado 
-        para dar información al lector para poder enrriquecer su mente</p>
-        <img src="recortada 1.jpeg"/>
-    <footer>Comentarios (0)</footer>
-    <address>
-        <a href="https://www.youtube.com/channel/UC8rllGCxZ4-XOhqBJewQfTA"> Visita mi canal de youtube! </a>
-    </address>
+                <img src="signodeinterrogacionedwin.jpg"/>
+
+                <h1>¿Qué quiero llegar a ser?</h1 class="h12">
+                <p> No creo que exista una respuesta precisa, ya que no quiero ser como alguien o algo en especial. 
+                    Ya no me veo el futuro como lo visualizaba hace algunos años, y quizá la visión que tengo ahora pueda cambiar más adelante.
+                    Pero si tengo que mencionar mis metas actuales, es el convertirme en una persona que comprenda la computación, y sepa crear 
+                    soluciones y aportes en base a esta; me encantaría emprender en distintos ambitos los cuales tengo conocimiento; de mismo modo
+                    tengo unas grandes ansias de aprender a invertir en la bolsa de valores e ir ganando experiencia a lo largo de los años. 
+                    Quiero ser una persona que no se límite a una sola tecnología o a un solo rubro, ya que una vida dirigida hacia un solo lugar sería aburrida.
+                </p>
+
+
+                <h1>¿Qué haré para lograrlo?</h1 class="h13">
+                <p> Mi empresa de educación favorita: <a href="https://platzi.com/">Platzi</a>, tiene un lema que dice: Nunca pares de aprender.
+                    Considero que es más que un lema, es un estilo de vida; estamos en un mundo variable e indecifrable, la tecnología ha hecho cambios
+                    inimaginables hace algunos años, lo cual ha cambiado nuestro estilo de vida actual, y estoy seguro que lo seguirá haciendo. No podemos 
+                    ser personas que nos satisfagamos con lo que nos enseñan en la universidad, o lo que podemos aprender en nuestro trabajo, siempre debemos
+                    ver más allá previsualizando el futuro.  </p>
+                <img src="caminosedwin.jpg"/>
+                </article>
+            </div>
+
+            <div>
+                <article id="tab2">
+                <h1>Tengo conocimientos básicos sobre: </h1>
+                
+                <ul class = "habilidades">
+                    <li><a href ="https://www.cursosgis.com/como-integramos-los-lenguajes-html-css-y-javascript/">
+                    <img src="data:image/jpeg;base64,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" width="200" height="200"></a></li>
+                    
+                    <li><a href ="https://openwebinars.net/blog/que-es-c/">
+                    <img src="Habilidades/lenguajeC.jpg" width="200" height="200"></a></li>
+
+                    <li><a href ="https://openwebinars.net/blog/que-es-cpp/">
+                    <img src="Habilidades/LenguajeC++.png" width="200" height="200"></a></li>
+
+                    <li><a href ="https://openwebinars.net/blog/que-es-python/">
+                    <img src="Habilidades/Lenguajepython.png" width="200" height="200"></a></li>
+
+                    <li><a href ="https://styde.net/que-es-y-para-que-sirve-sql/">
+                    <img src="Habilidades/SQL.jfif" width="200" height="200"></a></li>
+
+                    <li><a href ="https://openwebinars.net/blog/que-es-git-y-para-que-sirve/">
+                    <img src="Habilidades/GIT.png" width="200" height="200"></a></li>
+
+                    <li><a href ="https://www.adobe.com/la/products/premiere.html?sdid=KQPRY&mv=search&ef_id=CjwKCAjwzruGBhBAEiwAUqMR8M35AS4at2pslfMtuT7is8V28JOQVUF0YPG6tlUM-_MjHdrsuwwIZRoCueYQAvD_BwE:G:s&s_kwcid=AL!3085!3!473120598651!e!!g!!adobe%20premiere!9499870688!97813424878&gclid=CjwKCAjwzruGBhBAEiwAUqMR8M35AS4at2pslfMtuT7is8V28JOQVUF0YPG6tlUM-_MjHdrsuwwIZRoCueYQAvD_BwE">
+                    <img src="Habilidades/AdobePremiere.png" width="200" height="200"></a></li>
+
+                    <li><a href ="https://www.adobe.com/la/products/photoshop.html">
+                    <img src="Habilidades/Adobephotoshop.png" width="200" height="200"></a></li>
+                    </ul>
+
+                </article>
+            </div>
+
+            <div>
+                <article id="tab3">
+                <h1>Mis intereres son</h1>
+                Música:  Sé tocar piano, guitarra y ukelele.
+                Además escucho todo tipo de música, revisen redes sociales
+                <ul class="intereses">
+                    <li><a href ="https://www.google.com.pe/search?q=futbol&safe=active&hl=es&tbm=isch&sxsrf=ALeKk02tBGtoVj1fJbcFpxMkSo5YU6JmPA%3A1624212957888&source=hp&biw=1366&bih=600&ei=3YXPYI3MM4Cw5OUPwZyegA8&oq=futbol&gs_lcp=CgNpbWcQAzIECCMQJzIFCAAQsQMyAggAMgUIABCxAzIFCAAQsQMyAggAMgUIABCxAzICCAAyAggAMgUIABCxAzoHCCMQ6gIQJzoICAAQsQMQgwE6BggAEAUQHjoGCAAQChAYUO0IWJ4YYMIdaANwAHgAgAGQAogBrwySAQUzLjQuM5gBAKABAaoBC2d3cy13aXotaW1nsAEK&sclient=img&ved=0ahUKEwjNrpHj6KbxAhUAGLkGHUGOB_AQ4dUDCAc&uact=5">
+                        <img src="Intereses/futbol.jfif" width="200" height="200"></a></li>
     
-        </article>
-        <article>
-    <hgroup>
-    <h1>Titulo del segundo articulo</h1>
-    <h2>Subtitulo del segundo articulo</h2>
-    </hgroup>
-    <time Datetime="02-06-2020">Publicado al atardecer</time>
-    <p>Parrafo largo del segundo articulo articulando articuladamente articulado
-        para dar información al lector para poder enrriquecer su mente</p>
-        <footer>Comentarios (10)</footer>
-        </article>
-        <article>
-    <hgroup>
-    <h1>Titulo del Tercer articulo</h1>
-    <h2>Subtitulo del Tercer articulo</h2>
-    </hgroup>
-    <time Datetime="30-02-2020">Publicado el día que llueve dinero</time>
-    <p>Lorem ipsum, <cite> dolor sit amet consectetur adipisicing elit.</cite> <Small>Tempora nesciunt
-        culpa voluptatem ad minus.</Small>  Corrupti, minus cumque id vitae inventore 
-        dicta enim, esse quisquam ipsa dolorum, <Big>rerum dolorem sit aliquam?</Big></p>
-        <footer>Comentarios (100)</footer>
-        </article>
-    </section>
+                        <li><a href ="https://www.google.com.pe/search?q=basquet&tbm=isch&ved=2ahUKEwjv1vnl6KbxAhW7BbkGHQeICbcQ2-cCegQIABAA&oq=basquet&gs_lcp=CgNpbWcQAzIECCMQJzIHCAAQsQMQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQ1DGgQFYpYgBYJ-LAWgAcAB4AIABaYgBtwWSAQM0LjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=44XPYK_ZLbuL5OUPh5CmuAs&bih=600&biw=1366&safe=active&hl=es">
+                        <img src="Intereses/basquet.jfif" width="200" height="200"></a></li>
 
-    <aside>
-        <blockquote cite= "https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.tnrelaciones.com%2Finformacion%2Fmeme%2Fnunca-consideres-el-estudio-como-una-obligacion%2F&psig=AOvVaw3kvSIbZOOi6WtglEL2AQrl&ust=1622767229703000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDHx5Wd-vACFQAAAAAdAAAAABAD">
-            Nunca consideres el estudio como una obligación, sino como una oportunidad para penetrar en el bello y maravilloso mundo del saber.
-            -Albert Einstein
-        </blockquote>
+                        <li><a href ="https://www.google.com.pe/search?q=voley&tbm=isch&ved=2ahUKEwjxtK_v6KbxAhUODrkGHZbVC-UQ2-cCegQIABAA&oq=voley&gs_lcp=CgNpbWcQAzIECCMQJzIECAAQQzIECAAQQzICCAAyBAgAEEMyBAgAEEMyAggAMgIIADIECAAQQzIECAAQQzoHCAAQsQMQQzoFCAAQsQNQymtY4XVg7HZoAXAAeACAAXyIAYIFkgEDMi40mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=94XPYLHdHo6c5OUPlquvqA4&bih=600&biw=1366&safe=active&hl=es">
+                        <img src="Intereses/voley.jpg" width="200" height="200"></a></li>
+    
+                        <li><a href ="https://www.google.com.pe/search?q=nataci%C3%B3n&tbm=isch&ved=2ahUKEwim3tD36KbxAhW2N7kGHX4SBegQ2-cCegQIABAA&oq=nataci%C3%B3n&gs_lcp=CgNpbWcQAzIFCAAQsQMyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BAgjECc6BwgAELEDEEM6BAgAEENQgXJYqHxg6n5oAHAAeACAAWqIAZYGkgEDNC40mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=CIbPYKa6Mrbv5OUP_qSUwA4&bih=600&biw=1366&safe=active&hl=es">
+                        <img src="Intereses/natacion.jfif" width="200" height="200"></a></li>
+    
+                        <li><a href ="https://www.google.com.pe/search?q=ciclismo&tbm=isch&ved=2ahUKEwjKmouA6abxAhUsD7kGHYSrARYQ2-cCegQIABAA&oq=ciclismo&gs_lcp=CgNpbWcQAzIECCMQJzIECAAQQzIECAAQQzIECAAQQzIECAAQQzICCAAyAggAMgIIADICCAAyAggAOgUIABCxAzoICAAQsQMQgwFQzGtY7HBg9nFoAHAAeACAAXCIAZ8GkgEDNS4zmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=GobPYMqlIqye5OUPhNeGsAE&bih=600&biw=1366&safe=active&hl=es">
+                        <img src="Intereses/ciclismo.png" width="200" height="200"></a></li>
 
-        <blockquote cite= "http://facebook.com">
-            La inteligencia es un bien insuficiente, pero la imaginación es infinita.
-            -Amit Kalantri
-        </blockquote>
-    </aside>
+                        <li><a href ="https://www.google.com.pe/search?q=ciclismo+de+monta%C3%B1a&tbm=isch&ved=2ahUKEwiQ9v6H6abxAhUzBLkGHYvtCCoQ2-cCegQIABAA&oq=ciclismo+de+monta%C3%B1a&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BAgAEENQ-cwCWPXUAmDm2QJoAHAAeACAAWuIAaUIkgEDOC4zmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=K4bPYNC0CLOI5OUPi9uj0AI&bih=600&biw=1366&safe=active&hl=es#imgrc=gytcAlqUA12H4M">
+                            <img src="Intereses/ciclismodemontaña.jpg" width="200" height="200"></a></li>
+    
+                        <li><a href ="https://www.google.com.pe/search?q=badminton&tbm=isch&ved=2ahUKEwjfhJbK6abxAhU5AbkGHcQwA78Q2-cCegQIABAA&oq=badmint&gs_lcp=CgNpbWcQARgAMgQIIxAnMgQIABBDMgQIABBDMgQIABBDMgQIABBDMgIIADICCAAyAggAMgIIADICCAA6BwgAELEDEEM6BQgAELEDUIKBBFiChwRg3I8EaABwAHgAgAGKAYgBsAaSAQMwLjeYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=tYbPYJ_WOLmC5OUPxOGM-As&bih=600&biw=1366&safe=active&hl=es">
+                        <img src="Intereses/badminton.jpg" width="200" height="200"></a></li>
+    
+                        <li><a href ="https://www.google.com.pe/search?q=atletismo+&tbm=isch&ved=2ahUKEwj2osHr6abxAhUECbkGHc1NCFEQ2-cCegQIABAA&oq=atletismo+&gs_lcp=CgNpbWcQAzIECCMQJzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoECAAQQzoFCAAQsQNQ83hYmIABYMeAAWgAcAB4AIABcYgBtQeSAQMxLjiYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=-4bPYLa5M4SS5OUPzZuhiAU&bih=600&biw=1366&safe=active&hl=es">
+                        <img src="Intereses/atletismo.jfif" width="200" height="200"></a></li>
+                </ul>
+                <h1>Mis series favoritas</h1>
+                <ul class="series">
+                    <li><a><img class="suits" src="series/suits.jfif"></a></li>
+                    <li><a><img class="blackmirror" src="series/blackmirror.png"></a></li>
+                    <li><a><img class="breakingbad" src="series/breakingbad.jfif"></a></li>
+                    <li><a><img class="bcs" src="series/bettercallsaul.jfif"></a></li>
+                    <li><a><img class="gambito" src="series/gambito.jpg"></a></li>
+                    <li><a><img class="cobrakai" src="series/cobrakai.jfif"></a></li>
+                    <li><a><img class="casadepapel" src="series/la casa de papel.jpeg"></a></li>
+                    <li><a><img class="3%" src="series/3%.jfif"></a></li>
+                    <li><a><img class="flash" src="series/flash.png"></a></li>
+                    <li><a><img class="arrow" src="series/arrow.jfif"></a></li>
+                    <li><a><img class="lot" src="series/lot.png"></a></li>
+                    <li><a><img class="you" src="series/you.jpg"></a></li>
+                    <li><a><img class="bh" src="series/bojackhorseman.jpg"></a></li>
+                    <li><a><img class="shingeki" src="series/shingeki.jpg"></a></li>
+                    <li><a><img class="mha" src="series/myheroacademy.jfif"></a></li>
+                    <li><a><img class="parasyte" src="series/parasyte.jpg"></a></li>
+                    <li><a><img class="demon" src="series/demonslayer.jfif"></a></li>
+                    <li><a><img class="evangelion" src="series/evangelion.jfif"></a></li>
+                    <li><a><img class="sietepecados" src="series/sietepecacdos.png"></a></li>
+                </ul>
+                <p>
+                <h2> Frases que me inspiran:</h2>
+                <a><img class="einstein" src="frases/fraseeinstein.jpg"></a>
+                </p>
+                <p>
+                    <a><img src="frases/fraseamitkalantri.jpg"></a>    
+                </p>
+                </p>
+                </article>
+            </div>
 
-    <footer>
-        A la velocidad de la computación 
-    </footer>
-</div>
+            <div>
+                <article id="tab4">
+                <h1>Algunos de mis compañeros de carrera</h1>
+                <li class="compañeros"><a href ="https://brigiteemilianaquispemartini.000webhostapp.com/">
+                <img class="usuarios" src="usuarioimagen.png">Brigite Quispe</a></li>
+
+                <li class="compañeros"><a href ="https://pierofrancescobazanhuaman.000webhostapp.com">
+                <img class="usuarios" src="usuarioimagen.png">Piero Cobazan</a></li>
+                    
+                <li class="compañeros"><a href ="https://andreaabigailcuevasvasquez00.000webhostapp.com/index.html">
+                <img class="usuarios" src="usuarioimagen.png">Andrea Cuevas</a></li>
+
+                <li class="compañeros"><a href ="https://mateobernabehuarcayamelgarejo.me/">
+                <img class="usuarios" src="usuarioimagen.png">Mateo Huarcaya</a></li>
+
+                <li class="compañeros"><a href ="https://electroscopic-place.000webhostapp.com/">
+                <img class="usuarios" src="usuarioimagen.png">Eduardo Bautista</a></li>
+
+                <li class="compañeros"><a href ="https://angiemichellemontoyarocca.github.io/">
+                <img class="usuarios" src="usuarioimagen.png">Angie Montoya</a></li>
+
+                <li class="compañeros"><a href ="http://patriciogabrielramosmantari.me/">
+                <img class="usuarios" src="usuarioimagen.png">Patricio Ramos</a></li>
+
+                <li class="compañeros"><a href ="https://www.brayanelmercampossanchez.me/">
+                <img class="usuarios" src="usuarioimagen.png">Brayan Campos</a></li>
+
+                <li class="compañeros"><a href ="https://www.diegoalonsomiguelortegaaquino.me/">
+                <img class="usuarios" src="usuarioimagen.png">Diego Ortega</a></li>
+
+                <li class="compañeros"><a href ="https://www.jesusalonsosalazarmallqui.me/">
+                <img class="usuarios" src="usuarioimagen.png">Jesus Salazar</a></li>
+
+                <li class="compañeros"><a href ="https://claudiafernandarejasruiz.me/">
+                <img class="usuarios" src="usuarioimagen.png">Claudia Rejas</a></li>
+
+                <li class="compañeros"><a href ="https://wolfzerov.github.io/WolfZero.github.io/">
+                <img class="usuarios" src="usuarioimagen.png">Franco Villalobos</a></li>
+
+                <li class="compañeros"><a href ="https://skeletus.github.io/">
+                <img class="usuarios" src="usuarioimagen.png">Jesus Arias</a></li>
+
+                <li class="compañeros"><a href ="https://www.danielquichepalacios.com/">
+                <img class="usuarios" src="usuarioimagen.png">Daniel Quiche</a></li>
+                
+                <li class="compañeros"><a href ="http://ricardocoria.byethost12.com/?i=1">
+                <img class="usuarios" src="usuarioimagen.png">Ricardo Coria</a></li>
+
+                <li class="compañeros"><a href ="https://jobasi128.github.io/">
+                <img class="usuarios" src="usuarioimagen.png">Jonathan Barzola</a></li>
+
+                <li class="compañeros"><a href ="https://thamarazulayvalenzueladelacruz.000webhostapp.com/#Primero">
+                <img class="usuarios" src="usuarioimagen.png">Thamara Valenzuela</a></li>
+
+                <li class="compañeros"><a href ="https://king-pacaya.github.io/">
+                <img class="usuarios" src="usuarioimagen.png">King Pacaya</a></li>
+
+                <li class="compañeros"><a href ="https://gabrielalvarado.me/">
+                    <img class="usuarios" src="usuarioimagen.png">Gabriel Alvarado</a></li>
+
+                <li class="compañeros"><a href ="https://practical-franklin-d0e378.netlify.app">
+                <img class="usuarios" src="usuarioimagen.png">Laleska Arroyo</a></li>
+
+                <li class="compañeros"><a href ="https://practical-franklin-d0e378.netlify.app">
+                <img class="usuarios" src="usuarioimagen.png">Laleska Arroyo</a></li>
+
+                <li class="compañeros"><a href ="https://practical-franklin-d0e378.netlify.app">
+                <img class="usuarios" src="usuarioimagen.png">Laleska Arroyo</a></li>
+                
+                
+                </article>
+            </div>
+
+            <div>
+                <article id="tab5" class = "redes">
+                    <h1>Síganme en: </h1>
+                    <ul class = "sociales">
+                        <li><a href ="https://www.facebook.com/edwinjunior.floressanchez.3//">
+                        <img src="redesedwinflores/facebookedwin.png" width="200" height="200"></a></li>
+
+                        <li><a href ="https://www.instagram.com/edwinflores_19/?hl=es-la/">
+                        <img src="redesedwinflores/intaedwin.png" width="200" height="200"></a></li>
+
+                        <li><a href ="https://open.spotify.com/user/22yggd67pxzt52y2ncjcajzmy/">
+                        <img src="redesedwinflores/Spotifyedwin.png" width="200" height="200"></a></li>
+
+                        <li><a href ="https://www.youtube.com/channel/UC8rllGCxZ4-XOhqBJewQfTA/">
+                        <img src="redesedwinflores/Youtubeedwin.png" width="200" height="200"></a></li>
+
+                        <li><a href ="https://www.linkedin.com/in/edwin-flores-sanchez-44623a214//">
+                        <img src="redesedwinflores/Linkedinedwin.png" width="200" height="200"></a></li>
+                    </ul>
+                    </article>
+            </div>
+        </div>
+    </div>
 
 </body>
-</html>
+</html> 

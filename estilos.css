@@ -1,24 +1,216 @@
-h1 {
-    font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+*{
+    margin: 0;
+    padding 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+header h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(236, 223, 223);
+    font-size: 100px;
+}
+
+body { 
+    background: linear-gradient(rgb(1, 33, 136),rgb(182, 185, 199));
+    font-family: 'Open sans';
+}
+
+.wrap{
+    width: 800px;
+    max-height: 90%;
+    margin: 30px auto;
+}
+
+ul.tabs{
+    width: 100%;
+    background: #363636;
+    list-style: none;
+    display: flex;
+}
+
+ul.tabs li{
+    width: 19%;
+}
+
+ul.tabs li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center; 
+    display: block;
+    padding: 20px 0px;
+}
+
+.active {
+    background: #0984cc;
+
+}
+
+ul.tabs li a .tab-text{
+    margin-left: 8px;
+}
+
+
+.secciones{
+    width: 100%;
+    /* background: #fff */
+}
+
+.secciones article {
+    padding: 25px;
+}
+
+.secciones article p{
+    text-align: justify;
+}
+
+@media screen and (max-width: 700px){
+    ul.tabs li{
+        width: none;
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+}
+@media screen and (max-width: 450px){
+    ul.tabs li a{
+        padding: 15px 0px;
+    }
+
+    ul.tabs li a .tab-text{
+        display: none;
+    }
+
+    .secciones article{
+        padding: 20px;
+    }
+}
+.redes {
+        text-align: center;
+        font-weight: bold;
+}
+.sociales {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sociales li {
+    display: inline-block;
+}
+.sociales a {
+    padding: 15px;
+}
+
+.habilidades {
+
+}
+
+article {
+    color: blanchedalmond;
+}
+
+#tab1 p{
+    width: 430px;
+    margin: 20px;
+    float: left;
+    color: black;
     font-weight: bold;
 }
+img{
+    width: 230px;
+    padding: 20 px;
+    padding-bottom: 40px;
+    float: left;
+}
+#tab2 {
 
-h2 {
-    font-size: 35px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: lighter;
 }
 
-header,section,footer,aside,nav,article,hgroup {
-    border: 1px solid black;
-    display: block;
+article h1 {
+    padding-left: 100px;
 }
-body {
-    text-align: center;
+ul li a img {
+    width: 180px;
 }
-.agrupar {
-    background-color: aquamarine;
-    width: 960px;
-    margin: 15px, auto
+.habilidades {
+    list-style: none;
+    width: 800px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.intereses {
+    width: 800px;
+}
+.einstein {
+    width: 465px;
+}
+.series {
+    list-style: none;
+}
+.blackmirror {
+    width: 496px;
+}
+.suits {
+    width: 210px;
+}
+.bcs{
+    width: 496px;
+}
+.breakingbad {
+    width: 210px;
+}
+.gambito {
+    width: 300px;
+}
+.cobrakai {
+    width: 200px;
+}
+.casadepapel {
+    width: 330px;
+}
+.flash {
+    width: 194px;
+}
+.arrow {
+    width: 230px;
+}
+.you {
+    width: 250px;
+}
+.lot {
+    width: 225px;
+}
+.bh {
+    width: 350px;
+}
+.parasyte {
+    width: 170px;
+}
+.sietepecados {
+    width: 170px;
+}
+.demon {
+    width: 175px;
+}
+.evangelion {
+    width: 175px;
+}
+
+.compañeros {
+    list-style: none;
+    padding-top: 15px;
+    
+}
+.usuarios {
+    width: 30px;
+    
+}
+div article li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 2px;
+    color: black;
 }
